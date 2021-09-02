@@ -7,15 +7,13 @@
     <title>Book Archive</title>
     <!-- Bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<style>
-    .imgSize{
-        height: 250px;
-    }
-</style>
+    <!-- external css link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     
-  <main class="container my-5">
+  <section class="container my-5">
       <h1 class="text-center text-secondary fw-bolder">Book Archive</h1>
         <!-- search section  -->
     <div class="w-75 mx-auto my-3">
@@ -29,20 +27,20 @@
         <div class="spinner-border text-secondary"  role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
-      
-    </div>
+     </div>
 
     <!-- error message  -->
     <div id="error" class="text-center"></div>
+    
     <!--Total Books found -->
-    <h1 class="bg-dark text-white text-center my-3 px-2" id="total-books"></h1>
+    <h1 class=" text-secondary fw-bolder text-center mt-5 px-2" id="total-books"></h1>
     
 
     <!-- search result  -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 my-5" id="divContainer">
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-2" id="divContainer">
       
       </div>
-  </main>
+  </section>
 
 
     <!-- js bundle link  -->
